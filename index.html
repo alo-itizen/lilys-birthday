@@ -123,6 +123,7 @@ body::before{content:'';position:fixed;inset:0;z-index:0;background:linear-gradi
   box-shadow:0 4px 18px rgba(218,41,28,0.38);
   animation:ctag 2.5s ease-in-out infinite alternate;
   transition:transform .15s;
+  pointer-events: none;
 }
 .cta-btn:hover{transform:translateY(-2px);}
 @keyframes ctag{from{box-shadow:0 4px 18px rgba(218,41,28,0.38);}to{box-shadow:0 4px 28px rgba(218,41,28,0.7),0 0 50px rgba(218,41,28,0.12);}}
